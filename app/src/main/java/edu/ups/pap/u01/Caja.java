@@ -9,7 +9,7 @@ public class Caja<T> {
 
     public Caja(T valor) {
         this.valor = valor;
-    }
+    }  
 
     //METODO GENRICO 
     //GETTER
