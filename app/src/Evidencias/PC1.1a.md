@@ -5,6 +5,7 @@ permite que tenga diferentes tipos de datos POR ejemplos temperatuera puede ser 
 
 
 Qué agregaste en App.java.
+En la clase App primero se creó el método runLectura(), dentro del cual se instanciaron objetos de la clase Lectura.java. Se crearon dos objetos de tipo Lectura: uno para representar la temperatura y otro para la ocupación
 
 
 ![alt text](image.png)
