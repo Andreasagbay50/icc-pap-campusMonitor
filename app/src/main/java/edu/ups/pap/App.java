@@ -1,13 +1,24 @@
 package edu.ups.pap;
+import edu.ups.pap.creacionales.AbstractFactoryDemo;
 import edu.ups.pap.models.Lectura;
 import edu.ups.pap.models.Reporte;
 public class App {
     public static void main(String[] args) throws IllegalAccessException {
-        runLectura(); // Pc1.1a
-        runTransformaciones();
+       // runLectura(); // Pc1.1a
+        //runTransformaciones();
+        runAbstractFactory();
     }
+    private static void runAbstractFactory() {
+    AbstractFactoryDemo.ejecutar();
+}
 
     
+
+
+       
+    
+
+
 
     private static void runLectura() {
         Lectura<Double> temperatura = new Lectura<>(
